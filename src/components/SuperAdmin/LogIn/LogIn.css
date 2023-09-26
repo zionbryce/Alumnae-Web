@@ -1,0 +1,121 @@
+.div {
+    background: linear-gradient(325deg, rgb(4, 60, 95) 0%, rgb(255, 255, 255) 100%);
+    background-color: rgba(255, 255, 255, 1);
+    height: 100vh;
+    position: relative;
+    width:auto;
+    }
+
+.logo-container {
+    position: relative;
+    text-align:left;
+  }
+  
+.logo {
+    height: 564px;
+    left: 74px;
+    position: relative;
+    width: 564px;
+  }
+  
+.rectangle input[type="text"]{
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #5f5f5f;
+    border-radius: 20px;
+    height: 54px;
+    left: 869px;
+    position: absolute;
+    top: 230px;
+    width: 436px;
+    font-size: 20px;
+}
+.rectangle-2 input[type="password"]{
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #5f5f5f;
+    border-radius: 20px;
+    height: 54px;
+    left: 869px;
+    position: absolute;
+    top: 371px;
+    width: 436px;
+    font-size: 20px;
+}
+.text-wrapper {
+    color: #043c5f;
+    font-family: "Inria Sans-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 879px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 199px;
+    width: 118px;
+}
+.text-wrapper-2 {
+    color: #043c5f;
+    font-family: "Inria Sans-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 879px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 339px;
+    width: 118px;
+}
+
+.log-in-button {
+    background-color: #de8312;
+    font-family: "Inria Sans-Regular", Helvetica;
+    border: 1px solid;
+    border-color: #5f5f5f;
+    border-radius: 20px;
+    height: 50px;
+    position: absolute;
+    left: 1000px;
+    top: 500px;
+    width: 169px;
+    cursor: pointer;
+    font-size: 24px;
+    color: #043c5f;
+}
+
+.text-wrapper-4 {
+    color: #043c5f;
+    font-family: "Inria Sans-Regular", Helvetica;
+    font-size: 48px;
+    font-weight: 400;
+    left: 978px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 117px;
+    width: 218px;
+}
+
+.toggle-password{
+    position: absolute;
+    cursor: pointer;
+    height: 52px;
+    left: 1220px;
+    top: 371px;
+    width: 50px;
+    background-color: transparent;
+    border: transparent;
+}
+
+.toggle-container{
+    height: 52px;
+    width: 55px;
+}
+
+
+  
+  
+  
+  
+  
+  
