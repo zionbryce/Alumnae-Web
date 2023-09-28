@@ -1,0 +1,400 @@
+.Searchdash {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .Searchdash .div {
+    background-color: #ffffff;
+    height: 1024px;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .Searchdash .overlap-group {
+    background-color: #043c5f;
+    height: 1024px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 418px;
+  }
+  
+  .Searchdash .text-wrapper {
+    color: #ffffff;
+    font-family: "Inria Sans", Helvetica;
+    font-size: 48px;
+    font-weight: 400;
+    left: 100px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 80px;
+    width: 218px;
+  }
+  
+  .Searchdash .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Inria Sans", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 209px;
+    width: 218px;
+    text-decoration: none;
+    transition: .2s ease
+  }
+  .Searchdash .text-wrapper-2:hover {
+    transition: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -mis-transform: scale(1.1);
+  }
+  
+  .Searchdash .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Inria Sans", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 961px;
+    width: 218px;
+    text-decoration: none;
+    transition: .2s ease
+  }
+  .Searchdash .text-wrapper-3:hover {
+    transition: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -mis-transform: scale(1.1);
+  }
+  
+  .Searchdash .text-wrapper-4 {
+    color: #de8312;
+    font-family: "Inria Sans", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 265px;
+    width: 218px;
+    text-decoration: none;
+    transition: .2s ease
+  }
+  .Searchdash .text-wrapper-4:hover {
+    transition: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -mis-transform: scale(1.1);
+  }
+  
+  .Searchdash .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Inria Sans", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 19px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 377px;
+    width: 398px;
+    text-decoration: none;
+    transition: .2s ease
+  }
+  .Searchdash .text-wrapper-5:hover {
+    transition: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -mis-transform: scale(1.05);
+  }
+  
+  .Searchdash .text-wrapper-6 {
+    color: #ffffff;
+    font-family: "Inria Sans", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 19px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 431px;
+    width: 379px;
+    text-decoration: none;
+    transition: .2s ease
+  }
+  .Searchdash .text-wrapper-6:hover {
+    transition: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -mis-transform: scale(1.05);
+  }
+  
+  .Searchdash .text-wrapper-7 {
+    color: #ffffff;
+    font-family: "Inria Sans", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 19px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 321px;
+    width: 379px;
+    text-decoration: none;
+    transition: .2s ease
+  }
+  .Searchdash .text-wrapper-7:hover {
+    transition: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -mis-transform: scale(1.05);
+  }
+  
+  .Searchdash .text-wrapper-8 {
+    color: #000000;
+    font-family: "Inria Sans", Helvetica;
+    font-size: 29px;
+    font-weight: 400;
+    left: 715px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 123px;
+    width: 218px;
+  }
+  
+  .Searchdash .overlap {
+    height: 624px;
+    left: 653px;
+    position: absolute;
+    top: 160px;
+    width: 564px;
+  }
+  
+  .Searchdash .text-wrapper-9 {
+    color: #000000;
+    font-family: "Inria Sans", Helvetica;
+    font-size: 29px;
+    font-weight: 400;
+    left: 62px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 77px;
+    width: 218px;
+  }
+  
+  .Searchdash .text-wrapper-10 {
+    color: #000000;
+    font-family: "Inria Sans", Helvetica;
+    font-size: 29px;
+    font-weight: 400;
+    left: 60px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 192px;
+    width: 218px;
+  }
+  
+  .Searchdash .text-wrapper-11 {
+    color: #000000;
+    font-family: "Inria Sans", Helvetica;
+    font-size: 29px;
+    font-weight: 400;
+    left: 66px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 306px;
+    width: 218px;
+  }
+  
+  .Searchdash .text-wrapper-12 {
+    color: #000000;
+    font-family: "Inria Sans", Helvetica;
+    font-size: 29px;
+    font-weight: 400;
+    left: 60px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 420px;
+    width: 218px;
+  }
+  
+  .Searchdash .text-wrapper-13 {
+    color: #000000;
+    font-family: "Inria Sans", Helvetica;
+    font-size: 29px;
+    font-weight: 400;
+    left: 60px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 534px;
+    width: 218px;
+  }
+  
+  .Searchdash .rectangle {
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #5f5f5f;
+    border-radius: 20px;
+    height: 54px;
+    left: 56px;
+    position: absolute;
+    top: 0;
+    width: 436px;
+  }
+  
+  .Searchdash .rectangle-2 {
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #5f5f5f;
+    border-radius: 20px;
+    height: 54px;
+    left: 56px;
+    position: absolute;
+    top: 114px;
+    width: 436px;
+  }
+  
+  .Searchdash .rectangle-3 {
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #5f5f5f;
+    border-radius: 20px;
+    height: 54px;
+    left: 51px;
+    position: absolute;
+    top: 228px;
+    width: 436px;
+  }
+  
+  .Searchdash .rectangle-4 {
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #5f5f5f;
+    border-radius: 20px;
+    height: 54px;
+    left: 60px;
+    position: absolute;
+    top: 342px;
+    width: 436px;
+  }
+  
+  .Searchdash .rectangle-5 {
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #5f5f5f;
+    border-radius: 20px;
+    height: 54px;
+    left: 54px;
+    position: absolute;
+    top: 456px;
+    width: 436px;
+  }
+  
+  .Searchdash .rectangle-6 {
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #5f5f5f;
+    border-radius: 20px;
+    height: 54px;
+    left: 54px;
+    position: absolute;
+    top: 570px;
+    width: 436px;
+  }
+  
+  .Searchdash .logo {
+    height: fit-content;
+    object-fit: cover;   
+    top: 36px;
+    width: fit-content;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+  }
+  
+  .Searchdash .text-wrapper-14 {
+    color: #000000;
+    font-family: "Inria Sans", Helvetica;
+    font-size: 29px;
+    font-weight: 400;
+    left: 713px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 808px;
+    width: 218px;
+  }
+  
+  .Searchdash .rectangle-7 {
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #5f5f5f;
+    border-radius: 20px;
+    height: 54px;
+    left: 713px;
+    position: absolute;
+    top: 845px;
+    width: 436px;
+  }
+  
+  .Searchdash .overlap-2 {
+    height: 63px;
+    left: 824px;
+    position: absolute;
+    top: 923px;
+    width: 294px;
+  }
+  
+  .Searchdash .rectangle-8 {
+    background-color: #043c5f;
+    border: 1px solid;
+    border-color: #5f5f5f;
+    border-radius: 20px;
+    height: 63px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 235px;
+  }
+  
+  .Searchdash .text-wrapper-15 {
+  
+    color: #ffffff;
+    font-family: "Inria Sans", Helvetica;
+    font-size: 29px;
+    font-weight: 400;
+    left: 0.5px;
+    letter-spacing: 0;
+    line-height: 59px;
+    position: absolute;
+    top: 0.5px;
+    width: 236px;
+    background-color: #043c5f;
+    border-radius: 14px;
+    transition: .2s ease
+  }
+  
+  .Searchdash .text-wrapper-15:hover {
+    background-color: #04263b;
+    transition: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -mis-transform: scale(1.1);
+  }
+  

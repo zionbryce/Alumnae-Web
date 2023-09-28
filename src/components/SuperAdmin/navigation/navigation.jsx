@@ -3,6 +3,8 @@ import './navigation.css';
 
 export const navigation = () => {
   return (
-    <div>navigation</div>
+    <div className="box">
+      <img className="rectangle" alt="Rectangle" src="rectangle-4.png" />
+    </div>
   )
 }
