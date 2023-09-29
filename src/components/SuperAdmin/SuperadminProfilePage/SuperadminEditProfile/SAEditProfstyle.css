@@ -1,0 +1,295 @@
+.superadmin-edit-profile {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+
+  @media screen and (max-width: 768px) {
+
+    .superadmin-edit-profile {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+  }
+
+  .superadmin-edit-profile .overlap {
+    background-color: #043c5f;
+    height: 1024px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 418px;
+  }
+  
+  .superadmin-edit-profile .text-wrapper {
+    color: #ffffff;
+    font-family: "Inria Sans", Helvetica;
+    font-size: 48px;
+    font-weight: 400;
+    left: 100px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 80px;
+    width: 218px;
+  }
+  
+  .superadmin-edit-profile .text-wrapper-2 {
+    color: #DE8312;
+    background-color: transparent;
+    font-family: "Inria Sans", Helvetica;
+    font-size: 32px;
+    text-align: justify;
+    font-weight: 400;
+    left: 20px;
+    line-height: normal;
+    position: absolute;
+    border: 2px solid #043c5f; /* Add a border to maintain the format */
+    padding: 10px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    top: 209px;
+    width: fit-content;
+  }
+  
+  .superadmin-edit-profile .text-wrapper-3 {
+    color: #ffffff;
+    background-color: transparent;
+    font-family: "Inria Sans", Helvetica;
+    font-size: 32px;
+    text-align: justify;
+    font-weight: 400;
+    left: 20px;
+    line-height: normal;
+    position: absolute;
+    border: 2px solid #043c5f; /* Add a border to maintain the format */
+    padding: 10px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    top: 950px;
+    width: fit-content;
+  }
+  
+  .superadmin-edit-profile .text-wrapper-3:hover {
+    background-color: #3f799b6b; /* Background color when hovered */
+    color: #ffffff; /* Text color when hovered */
+  }
+  
+  .superadmin-edit-profile .text-wrapper-4 {
+    color: #ffffff;
+    background-color: transparent;
+    font-family: "Inria Sans", Helvetica;
+    font-size: 32px;
+    text-align: justify;
+    font-weight: 400;
+    left: 20px;
+    line-height: normal;
+    position: absolute;
+    border: 2px solid #043c5f; /* Add a border to maintain the format */
+    padding: 10px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    top: 270px;
+    width: fit-content;
+  }
+  
+  .superadmin-edit-profile .text-wrapper-4:hover {
+    background-color: #3f799b6b; /* Background color when hovered */
+    color: #ffffff; /* Text color when hovered */
+  }
+  
+  .superadmin-edit-profile .text-wrapper-5 {
+    color: #ffffff;
+    background-color: transparent;
+    font-family: "Inria Sans", Helvetica;
+    font-size: 32px;
+    text-align: justify;
+    font-weight: 400;
+    left: 20px;
+    line-height: normal;
+    position: absolute;
+    border: 2px solid #043c5f; /* Add a border to maintain the format */
+    padding: 10px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    top: 392px;
+    width: fit-content;
+  }
+  
+  .superadmin-edit-profile .text-wrapper-5:hover {
+    background-color: #3f799b6b; /* Background color when hovered */
+    color: #ffffff; /* Text color when hovered */
+  }
+  
+  .superadmin-edit-profile .text-wrapper-6 {
+    color: #ffffff;
+    background-color: transparent;
+    font-family: "Inria Sans", Helvetica;
+    font-size: 32px;
+    text-align: justify;
+    font-weight: 400;
+    left: 20px;
+    line-height: normal;
+    position: absolute;
+    border: 2px solid #043c5f; /* Add a border to maintain the format */
+    padding: 10px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    top: 453px;
+    width: fit-content;
+  }
+  
+  .superadmin-edit-profile .text-wrapper-6:hover {
+    background-color: #3f799b6b; /* Background color when hovered */
+    color: #ffffff; /* Text color when hovered */
+    width: fit-content;
+  }
+  
+  .superadmin-edit-profile .text-wrapper-7 {
+    color: #ffffff;
+    background-color: transparent;
+    font-family: "Inria Sans", Helvetica;
+    font-size: 32px;
+    text-align: justify;
+    font-weight: 400;
+    left: 20px;
+    line-height: normal;
+    position: absolute;
+    border: 2px solid #043c5f; /* Add a border to maintain the format */
+    padding: 10px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    top: 331px;
+    width: fit-content;
+  }
+  
+  .superadmin-edit-profile .text-wrapper-7:hover {
+    background-color: #3f799b6b; /* Background color when hovered */
+    color: #ffffff; /* Text color when hovered */
+  }
+  
+  .superadmin-edit-profile .overlap-group {
+    height: 564px;
+    left: 648px;
+    position: absolute;
+    top: 78px;
+    width: 595px;
+  }
+  
+  .superadmin-edit-profile .logo {
+    height: 564px;
+    left: 146px;
+    object-fit: cover;
+    position: absolute;
+    top: 149px;
+    width: 564px;
+  }
+  
+  .superadmin-edit-profile .group-3 {
+    height: 280px;
+    left: 629px;
+    position: absolute;
+    top: 15px;
+    width: 266px;
+  }
+  
+  .superadmin-edit-profile .profile-picture {
+    background-color: #e6e6e6;
+    border-radius: 20px;
+    height: 180px;
+    left: 18px;
+    position: absolute;
+    top: 100px;
+    width: 200px;
+  }
+  
+  .superadmin-edit-profile .vector {
+    height: 120px;
+    left: -5803px;
+    position: absolute;
+    top: -649px;
+    width: 120px;
+  }
+  
+  .superadmin-edit-profile .img {
+    height: 80px;
+    left: 60px;
+    position: absolute;
+    top: 50px;
+    width: 80px;
+  }
+  
+  .superadmin-edit-profile .overlap-group-2 {
+    height: 63px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 264px;
+  }
+  
+  .superadmin-edit-profile .rectangle-2 {
+    background-color: #043c5f;
+    border: 1px solid;
+    border-color: #5f5f5f;
+    border-radius: 20px;
+    height: 63px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 235px;
+  }
+  
+  .superadmin-edit-profile .text-wrapper-8 {
+    color: #ffffff;
+  background-color: #043C5F;
+  font-family: "Inria Sans", Helvetica;
+  font-size: 32px;
+  text-align: justify;
+  font-weight: 400;
+  left: 2px;
+  line-height: normal;
+  position: absolute;
+    border: 2px transparent; /* Add a border to maintain the format */
+    padding: 12px 41px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    top: 14px;
+    width: fit-content;
+  }
+
+  .superadmin-edit-profile .text-wrapper-8:hover {
+    background-color: #3f799b6b; /* Background color when hovered */
+    color: #ffffff; /* Text color when hovered */
+  }
+  
+  .superadmin-edit-profile .group-4 {
+    height: 532px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 297px;
+  }
+
+  .superadmin-edit-profile .text-wrapper-9 {
+    color: #000000;
+    font-family: "Inria Sans", Helvetica;
+    font-size: 48px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 218px;
+  }

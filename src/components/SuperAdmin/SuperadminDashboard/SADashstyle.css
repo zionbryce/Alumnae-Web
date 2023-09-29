@@ -1,0 +1,215 @@
+.superadmin-dashboard {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 768px) {
+  
+    .superadmin-dashboard {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+  }
+  
+  .superadmin-dashboard .overlap-group {
+    background-color: #043c5f;
+    height: 1024px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 418px;
+  }
+  
+  .superadmin-dashboard .text-wrapper {
+    color: #ffffff;
+    font-family: "Inria Sans", Helvetica;
+    font-size: 48px;
+    font-weight: 400;
+    left: 100px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 80px;
+    width: 218px;
+  }
+  
+  .superadmin-dashboard .text-wrapper-2 {
+    color: #ffffff;
+    background-color: transparent;
+    font-family: "Inria Sans", Helvetica;
+    font-size: 32px;
+    text-align: justify;
+    font-weight: 400;
+    left: 20px;
+    line-height: normal;
+    position: absolute;
+    border: 2px solid #043c5f; /* Add a border to maintain the format */
+    padding: 10px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    top: 209px;
+    width: fit-content;
+  }
+  
+  .superadmin-dashboard .text-wrapper-2:hover {
+    background-color: #3f799b6b; /* Background color when hovered */
+    color: #ffffff; /* Text color when hovered */
+  }
+  
+  .superadmin-dashboard .text-wrapper-3 {
+    color: #ffffff;
+    background-color: transparent;
+    font-family: "Inria Sans", Helvetica;
+    font-size: 32px;
+    text-align: justify;
+    font-weight: 400;
+    left: 20px;
+    line-height: normal;
+    position: absolute;
+    border: 2px solid #043c5f; /* Add a border to maintain the format */
+    padding: 10px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    top: 950px;
+    width: fit-content;
+  }
+  
+  .superadmin-dashboard .text-wrapper-3:hover {
+    background-color: #3f799b6b; /* Background color when hovered */
+    color: #ffffff; /* Text color when hovered */
+  }
+  
+  .superadmin-dashboard .text-wrapper-4 {
+    color: #ffffff;
+    background-color: transparent;
+    font-family: "Inria Sans", Helvetica;
+    font-size: 32px;
+    text-align: justify;
+    font-weight: 400;
+    left: 20px;
+    line-height: normal;
+    position: absolute;
+    border: 2px solid #043c5f; /* Add a border to maintain the format */
+    padding: 10px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    top: 270px;
+    width: fit-content;
+  }
+  
+  .superadmin-dashboard .text-wrapper-4:hover {
+    background-color: #3f799b6b; /* Background color when hovered */
+    color: #ffffff; /* Text color when hovered */
+  }
+  
+  .superadmin-dashboard .text-wrapper-5 {
+    color: #ffffff;
+    background-color: transparent;
+    font-family: "Inria Sans", Helvetica;
+    font-size: 32px;
+    text-align: justify;
+    font-weight: 400;
+    left: 20px;
+    line-height: normal;
+    position: absolute;
+    border: 2px solid #043c5f; /* Add a border to maintain the format */
+    padding: 10px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    top: 392px;
+    width: fit-content;
+  }
+  
+  .superadmin-dashboard .text-wrapper-5:hover {
+    background-color: #3f799b6b; /* Background color when hovered */
+    color: #ffffff; /* Text color when hovered */
+  }
+  
+  .superadmin-dashboard .text-wrapper-6 {
+    color: #ffffff;
+    background-color: transparent;
+    font-family: "Inria Sans", Helvetica;
+    font-size: 32px;
+    text-align: justify;
+    font-weight: 400;
+    left: 20px;
+    line-height: normal;
+    position: absolute;
+    border: 2px solid #043c5f; /* Add a border to maintain the format */
+    padding: 10px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    top: 453px;
+    width: fit-content;
+  }
+  
+  .superadmin-dashboard .text-wrapper-6:hover {
+    background-color: #3f799b6b; /* Background color when hovered */
+    color: #ffffff; /* Text color when hovered */
+    width: fit-content;
+  }
+  
+  .superadmin-dashboard .text-wrapper-7 {
+    color: #ffffff;
+    background-color: transparent;
+    font-family: "Inria Sans", Helvetica;
+    font-size: 32px;
+    text-align: justify;
+    font-weight: 400;
+    left: 20px;
+    line-height: normal;
+    position: absolute;
+    border: 2px solid #043c5f; /* Add a border to maintain the format */
+    padding: 10px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    top: 331px;
+    width: fit-content;
+  }
+  
+  .superadmin-dashboard .text-wrapper-7:hover {
+    background-color: #3f799b6b; /* Background color when hovered */
+    color: #ffffff; /* Text color when hovered */
+    width: fit-content;
+  }
+  
+  .superadmin-dashboard .overlap {
+    height: 564px;
+    left: 648px;
+    position: absolute;
+    top: 230px;
+    width: 595px;
+  }
+  
+  .superadmin-dashboard .logo {
+    height: 564px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 564px;
+  }
+  
+  .superadmin-dashboard .text-wrapper-8 {
+    color: #043c5f;
+    font-family: "Inria Sans", Helvetica;
+    font-size: 64px;
+    font-weight: 400;
+    left: 49px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 15px;
+    width: 546px;
+  }
+  

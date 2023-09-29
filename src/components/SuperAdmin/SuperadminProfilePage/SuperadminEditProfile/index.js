@@ -1,0 +1,1 @@
+export { SuperadminEditProfile } from "./SuperadminEditProfile";

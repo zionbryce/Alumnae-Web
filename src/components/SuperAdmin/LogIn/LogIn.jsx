@@ -3,10 +3,16 @@ import Logo from '../assets/logo2.png';
 import hidepass from '../assets/hidepass.png';
 import showpass from '../assets/showpass.png';
 import './LogIn.css';
+import { useNavigate } from "react-router-dom";
 
 export const LogIn = () => {
   const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
+
+  const navigate = useNavigate();
+  const handleDashboardButtonClick = () => {
+    navigate("/superdashboard");
+  };
 
   const togglePasswordVisibility = () => {
     setShowPassword(!showPassword);
@@ -27,7 +33,9 @@ export const LogIn = () => {
             </button>
           </div>
           <div className="text-wrapper-4">ALUMNAE</div>
-          <button className="log-in-button">Log In</button>
+          <button className="log-in-button" onClick={handleDashboardButtonClick}>
+          Log In
+        </button>
         </div>
       
   )
