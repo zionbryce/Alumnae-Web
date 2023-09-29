@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route, Navigate} from 'react-router-dom';
 import './App.css';
 import {LogIn} from './components/SuperAdmin/LogIn/LogIn';
 import { Searchdash } from './components/SuperAdmin/Searchdash/Searchdash';
-import { SuperadminDashboard } from './components/SuperAdmin/SuperadminDashboard/SuperadminDashboard';
 import { Navigation } from './components/SuperAdmin/navigation/navigation';
 import { Home } from './components/SuperAdmin/home/home';
 
@@ -13,7 +12,6 @@ export const App = () => {
     <div>
       <Navigation>
       <Routes>
-      <Route path='/logout' element={<LogIn/>}/>
 
       <Route path='/' element={<LogIn/>}/>
       <Route path='/search' element={<Searchdash/>}/>
