@@ -4,22 +4,23 @@ import './App.css';
 import {LogIn} from './components/SuperAdmin/LogIn/LogIn';
 import { Searchdash } from './components/SuperAdmin/Searchdash/Searchdash';
 import { SuperadminDashboard } from './components/SuperAdmin/SuperadminDashboard/SuperadminDashboard';
-import { SuperadminProfilePage } from './components/SuperAdmin/SuperadminProfilePage/SuperadminProfilePage';
-import { SuperadminEditProfile } from './components/SuperAdmin/SuperadminProfilePage/SuperadminEditProfile/SuperadminEditProfile';
+import { Navigation } from './components/SuperAdmin/navigation/navigation';
+import { Home } from './components/SuperAdmin/home/home';
 
 export const App = () => {
   return (
     <BrowserRouter>
     <div>
+      <Navigation>
       <Routes>
-      <Route path="/" element={<Navigate to="/logout" />} /> {/* Default route */}
       <Route path='/logout' element={<LogIn/>}/>
-      <Route path='/search' element={<Searchdash/>}/>
-      <Route path="/superdashboard" element={<SuperadminDashboard />} />
-      <Route path="/superprofile" element={<SuperadminProfilePage />} />
-      <Route path="/superEditprofile" element={<SuperadminEditProfile />} />
-      </Routes>
 
+      <Route path='/' element={<LogIn/>}/>
+      <Route path='/search' element={<Searchdash/>}/>
+      <Route path='/profile' element={<Profile/>}/>
+      <Route path='/home' element={<Home/>}/>
+      </Routes>
+      </Navigation>
     </div>
     </BrowserRouter>
   )
